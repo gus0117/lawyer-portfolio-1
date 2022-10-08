@@ -75,6 +75,8 @@
 .description-1 {
     font-family: 'Lato', sans-serif;
     font-weight: 400;
+    line-height: 1.5;
+    margin: 20px auto;
 }
 
 .photo {
@@ -85,4 +87,34 @@
 
 .photo img {
     width: 100%;
+}
+
+.title {
+    font-family: 'Open Sans', sans-serif;
+    margin: 24px auto;
+}
+
+.border-bottom {
+    padding-bottom: 20px;
+    border-bottom: solid;
+    border-color: orange;
+    border-width: 20px;
+}
+
+.description-2 {
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
+    line-height: 1.5;
+    margin: 20px auto;
+}
+
+.bg-orange {
+    background-color: orange;
+}
+
+.cards {
+
+}
+.card {
+
 }
