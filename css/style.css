@@ -6,6 +6,10 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 .container {
     margin: 10px 20px;
 }
@@ -109,12 +113,109 @@
 }
 
 .bg-orange {
-    background-color: orange;
+    background-color: rgb(252, 122, 0);
 }
 
 .cards {
+    padding: 20px;
+}
+
+.card {
+    background-color: white;
+    margin-bottom: 20px;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    padding-top: 16px;
+    padding-bottom: 50px;
+}
+
+.icon-card {
+    color: orange;
+}
+
+.card-title {
+    text-transform: uppercase;
+    font-weight: 700;
+    margin: 20px auto;
+    font-size: 1.3rem;
+}
+
+.contact-info {
+    padding: 20px 20px;
+}
+
+.contact-title {
+    padding: 20px 0;
+    font-size: 2rem;
+    color: white;
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
+}
+
+.description-2 {
+    color: white;
+    font-weight: 400;
+    font-size: 1.1rem;
+}
+
+.contact-img {
 
 }
-.card {
 
+.contact-img img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+.contact-form {
+    display: flex;
+    justify-content: center;
+}
+
+.form-group {
+    padding: 10px 1px;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+.form-label {
+    color:white
+}
+
+.form-control {
+    padding: 5px 10px;
+    background-color: transparent;
+    color: white;
+    border-style: none none solid none;
+    border-color: white;
+    border-width: 2px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.form-control::placeholder {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+.form-button {
+    display: flex;
+    justify-content: center;
+}
+
+.form {
+    padding-bottom: 50px;
+}
+
+.btn {
+    width: 100%;
+    font-size: 1.2rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    border-style: none;
 }
