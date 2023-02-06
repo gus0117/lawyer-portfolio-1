@@ -75,6 +75,8 @@ html {
     border-width: 2px;
     text-transform: uppercase;
     margin: 40px auto;
+    max-width: 450px;
+
 }
 
 .description-1 {
@@ -84,10 +86,25 @@ html {
     margin: 20px auto;
 }
 
+.mw-450 {
+    max-width: 450px;
+}
+
+.mw-1024{
+    max-width: 1024px;
+}
+
+.d-flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .photo {
     display: flex;
     justify-content: center;
     margin: 20px;
+    max-width: 450px;
 }
 
 .photo img {
